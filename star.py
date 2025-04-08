@@ -7,7 +7,7 @@ class Star:
         self.star_size = -1
         self.star_weight = -1
         self.star_temp = -1
-        self.star_location = [-1] * 3
+        self.star_coord = [-1] * 3
         self.genSeed = genSeed
     def classGen(self):
         random.seed(self.genSeed)
